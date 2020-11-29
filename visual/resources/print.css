@@ -1,0 +1,72 @@
+body {
+    margin:0;
+    padding:10px;
+    line-height: 1.4em;
+    word-spacing:1px;
+    letter-spacing:0.2px;
+    font: 13px Arial, Helvetica,"Lucida Grande",serif;
+    color: #000;
+	
+	max-width: 100%;
+}
+a:hover{
+	background-color:blue;
+	color:white;
+}
+h1 {
+	font-size:20px;
+}
+h2 {
+	font-size:16px;
+}
+h3 {
+	font-size:13px;
+}
+h1, h2, h3, h4 {
+	margin:0;
+	margin-bottom:10px;
+}
+table.data_grid {
+	
+	background: white;
+	border-collapse: collapse;
+}
+table.data_grid th, table.data_grid td {
+	font-size: 11pt;
+	border: 1px #000 solid;
+	padding: 0.3em;
+	
+	
+}
+table.data_grid th {
+	text-align: center;
+	background-color:green;
+	color:white;
+}
+table.data_grid td {
+	text-align:left;
+	vertical-align:top;
+	
+}
+.data_grid tr:nth-child(odd){background-color:#fff}
+.data_grid tr:nth-child(even){background-color:#f1f1f1}
+.data_grid tr:hover{background-color: #FFFF00}
+
+table.form_input {
+	
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+}
+.form_input tr:nth-child(odd){background-color:#fff}
+.form_input tr:nth-child(even){background-color:#f1f1f1}
+.form_input tr:hover{background-color: #FFFF00}
+
+input{ padding: 0.3em; display:block;border:none;border-bottom:1px solid #808080;width:100%}
+select{padding: 0.3em; width:100%;color:#000;border:1px solid transparent;border-bottom:1px solid #009688}
+
+.form_label{width:20%}
+.form_isian{width:80%}
+
+button{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none !important;color:#fff;background-color:green;text-align:center;cursor:pointer;white-space:nowrap}
+button:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
