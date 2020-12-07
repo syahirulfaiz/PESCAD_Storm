@@ -22,6 +22,10 @@ accessToken: 'copy_your_access_token_here'<br/>
 
 Import the "Apache Storm" as a maven project.<br/>
 
+Import the "test.sql" into a MySQL DB named "test".<br/>
+
 Put the "visual" folder in your www or htdocs directory.<br/>
+
+
 
 		
